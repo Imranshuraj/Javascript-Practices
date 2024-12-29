@@ -2,7 +2,8 @@
 
 // console.log("Hello Anshu Coding Family");
 // console.log('Hello imranshuraj');
-
+// console.log("Hello Anshu Coding Family 'imranshuraj'");
+// console.log('Hello Anshu Coding Family "imranshuraj"');
 
 // //Naming convention
 
@@ -230,3 +231,63 @@
 // // console.log("a %= 1",a %= 1);
 // // console.log("a **= 2",a **= 2);
 
+// //4. Comparision operator
+
+// // Comprasion operator is used to compare two or more values and return a boolean (true and false) based on the comparsion.
+// // 4.1. Equality operator
+// // // 4.1.1. Loose equality operator (==)
+// // // Compares two values for equality after type conversion(if needed).
+// console.log(5 == "5"); //Loose equality operator converts string type 5 into number type 5 . so , it returns true.
+// console.log(0 == false); //It returns true
+
+// // // 4.1.2. Strict equality operator
+// // // Compares two values for equality without type conversion
+// console.log(5 === "5"); //It returns false because it does not convert type .
+// console.log(0 === false); //It returns false.
+
+// // // 4.2.1. Loose inequality operator (!=)
+// // // Compares two values for inequality after type conversion(if needed).
+// console.log(5 != "5"); //Loose inequality operator converts string type 5 into number type 5 . so , it returns faslse.
+// console.log(0 != false); //It returns false
+
+// // // 4.2.2. Strict inequality operator
+// // // Compares two values for inequality without type conversion
+// console.log(5 !== "5"); //It returns true because it does not convert type .
+// console.log(0 !== false); //It returns true.
+
+// // // 5. Relational operator -->greater than (>),less than (<),Greater than or equal to(>=), Less than or equal to (<=),
+// console.log(10>5);
+// console.log(10<5);
+// console.log(10>=5);
+// console.log(5>=10);
+// console.log(10>=10);
+// console.log(10<=5);
+// console.log(5<=10);
+// console.log(10<=10);
+
+// // 6. Logical operator
+
+// // // 6.1. Logical AND (&&)
+// // // If both conditions/expressions are true then it retuurns true.
+// console.log(true && true);
+// console.log("a" === "a" && "b" === "b");
+// console.log("b" === "a" && "b" === "b");
+// console.log("a" === "a" && "b" === "a");
+// console.log("a" === "b" && "b" === "a");
+
+// // // 6.2. Logical OR (||)
+// // //It becomes true if at least one condition/expression is true. and if both conditions / expressions are false then it returns false
+// console.log(true || true);
+// console.log("a" === "a" || "b" === "b");
+// console.log("b" === "a" || "b" === "b");
+// console.log("a" === "a" || "b" === "a");
+// console.log("a" === "b" || "b" === "a");
+
+// // // 6.2. Logical OR (!)
+// // //Converts it to a boolean and returns the opposite.
+// console.log(!true);
+// console.log(!false);
+// console.log(!("a"==="a"));
+// console.log(!("a"==="b"));
+// console.log(!("b"==="a"));
+// console.log(!("b"==="b"));
